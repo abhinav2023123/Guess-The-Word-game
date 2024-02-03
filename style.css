@@ -1,0 +1,56 @@
+body {
+	background: antiquewhite;
+	background-image: url("bg.jpeg");
+	background-size: cover;
+}
+
+h1 {
+	font-size: 50px;
+	color:brown;
+	font-family: fantasy;
+	font-weight: bold;
+	background-color: burlywood;
+
+	border-radius: 20px;
+
+	position:relative;
+	top: 10px;
+	bottom:10px;
+	width:70%;
+
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.login_div1,
+.login_div2 {
+	background:seashell;
+	padding: 10px;
+	float: none;
+	border-radius: 20px;
+	padding-bottom: px;
+}
+
+
+#player1_name,
+#player2_name {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#word {
+	width: 60%;
+}
+
+#word_display {
+	letter-spacing: 5px;
+}
+
+#output {
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}

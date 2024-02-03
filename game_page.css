@@ -1,0 +1,91 @@
+body {
+	background: antiquewhite;
+	background-image: url("bg.jpeg");
+	background-size: cover;
+}
+
+h1 {
+	font-size: 50px;
+	color:brown;
+	font-family: fantasy;
+	font-weight: bold;
+	background-color: burlywood;
+
+	border-radius: 20px;
+
+	position:relative;
+	top: 10px;
+	bottom:10px;
+	width:70%;
+
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+#score{
+	background-color:burlywood;
+	border-radius: 20px;
+    color: brown;
+	position:relative;
+	left:10px;
+	top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+#player1_name, #player2_name, #player1_score, #player2_score{
+	color:brown;
+	font-size: 25px;
+}
+
+
+#player_question{
+	color: rgb(179, 104, 6); 
+    background-color: seashell;;
+    font-family: cursive;
+	font-size: 20px;
+
+}
+
+#player_answer{
+	color: rgb(179, 104, 6); 
+    background-color: seashell;;
+    font-family: cursive;
+	font-size: 20px;
+}
+
+#output
+{
+background: seashell;
+border-radius: 10px;
+border-bottom: 2px solid burlywood;
+padding: 10px;
+float: none;
+text-align: left;
+font-size: 20px;
+margin: -10px;
+}
+
+h4{
+	color:rgb(179, 104, 6);
+	font-family: Geneva;
+}
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#word
+{
+	width: 50%;
+}
+#word_display
+{
+	letter-spacing: 2px;
+}
+
+.container{
+	font-size: 5px;
+}
